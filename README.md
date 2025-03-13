@@ -66,46 +66,75 @@ Applied multiple **machine learning and clustering algorithms** to analyze crime
 
 ---
 
-## **📂 Code Structure & Files**  
+📂 Code Structure & Files
+📌 Python Notebooks
+1️⃣ DM_Part-1.ipynb
+Purpose: Data exploration, cleaning, and feature engineering.
+Contents:
+✔️ Data preprocessing (handling missing values, feature extraction).
+✔️ Exploratory Data Analysis (EDA).
+✔️ Initial insights on crime frequency and victim demographics.
+📌 Usage: Run this first to prepare the dataset before applying machine learning models.
 
-This section outlines the primary notebooks and scripts included in this repository, detailing their specific purposes and analyses.
+2️⃣ FirstModel.ipynb
+Purpose: Implementation of Logistic Regression and evaluation metrics.
+Contents:
+✔️ Logistic Regression for crime type classification.
+✔️ Performance evaluation.
+📌 Usage: Use this to test Logistic Regression on the dataset.
 
-### **1️⃣ DM_Part-1.ipynb**
-- **Purpose**: Data exploration, cleaning, and feature engineering.
-- **Key Tasks**:
-  - Data preprocessing (handling missing values, feature extraction).
-  - Exploratory Data Analysis (EDA).
-  - Initial insights on crime frequency and victim demographics.
-- **Run this first** to prepare the dataset before applying machine learning models.
+3️⃣ SecondModel.ipynb
+Purpose: Implementation of Decision Tree classification with confusion matrix analysis.
+Contents:
+✔️ Decision Tree Classifier to predict crime categories.
+✔️ Aggregated confusion matrix for model performance comparison.
+📌 Usage: Builds on FirstModel, adding Decision Tree and deeper evaluation.
 
-### **2️⃣ DM_Part-2.ipynb**
-- **Purpose**: Machine learning application for clustering and prediction.
-- **Key Tasks**:
-  - **K-Means & DBSCAN clustering** to detect crime hotspots.
-  - **Decision Tree & Logistic Regression** to classify crime types.
-  - **Visualization of key trends** (heatmaps, classification results).
-- **Use this after preprocessing the data in DM_Part-1**.
+4️⃣ FourthModel.ipynb
+Purpose: DBSCAN clustering for identifying crime hotspots.
+Contents:
+✔️ DBSCAN clustering implementation on crime data.
+✔️ Identifies high-crime zones based on density.
+📌 Usage: Dedicated notebook for DBSCAN clustering.
 
-### **3️⃣ DBSCAN_Trial.ipynb**
-- **Purpose**: Experimentation with DBSCAN clustering.
-- **Key Tasks**:
-  - Testing different epsilon (`ε`) and min-sample values.
-  - Crime cluster visualization on LA city map.
+5️⃣ K_Means_Algorithm (1).ipynb
+Purpose: Dedicated notebook for K-Means clustering analysis.
+Contents:
+✔️ Finding the optimal number of clusters (Elbow Method).
+✔️ Crime clustering based on spatial and temporal patterns.
+📌 Usage: Used specifically for clustering analysis.
 
-### **4️⃣ KMeans_Clustering.ipynb**
-- **Purpose**: Implementation of K-Means clustering.
-- **Key Tasks**:
-  - Optimal cluster selection using **Elbow Method**.
-  - Understanding crime segmentations.
+6️⃣ DBSCAN_Trial.ipynb
+Purpose: Experimentation with DBSCAN clustering.
+Contents:
+✔️ Testing different epsilon (ε) and min-sample values.
+✔️ Crime cluster visualization on LA city map.
+📌 Usage: Used to explore non-linear crime clusters.
 
-### **5️⃣ Crime_Trend_Analysis.ipynb**
-- **Purpose**: Analyze trends in crime data over time.
-- **Key Tasks**:
-  - Seasonal patterns, monthly variations.
-  - Forecasting crime trends.
+📌 R Scripts
+7️⃣ DBSCAN.R
+Purpose: Implement DBSCAN clustering in R for crime hotspots.
+📌 Usage: Alternative clustering analysis using R instead of Python.
 
-📄 **More Details in Report**: [Download PDF](https://github.com/your-repo/docs/LA_Crime_Analysis_Report.pdf)  
+8️⃣ DT.R
+Purpose: Initial implementation of Decision Tree classifier in R.
+✔️ Training Decision Tree on crime data.
+✔️ Evaluating classification accuracy.
+📌 Usage: R-based alternative to crime type prediction.
 
+9️⃣ DT2ndAttempt.R
+Purpose: A refined second attempt at Decision Tree modeling in R.
+✔️ Adjusted parameters for better model performance.
+✔️ Feature selection & improved classification accuracy.
+📌 Usage: Builds upon DT.R with improved accuracy.
+
+🔟 DT.RData & DTree.RData
+Purpose: Serialized models storing trained Decision Trees.
+📌 Usage: Used for reloading models without retraining.
+
+📄 PDF Summary Report
+📄 Download Full Report: LA_Crime_Analysis_Report.pdf
+🔹 Includes Key Findings, Visualizations & Model Performance.
 ---
 
 ## **🔑 Key Findings**  
