@@ -1,1 +1,44 @@
+📂 Code Structure & Files
+📌 Python Notebooks
+1️⃣ DM_Part-1.ipynb
+Purpose: Data exploration, cleaning, and feature engineering.
+Contents:
+✔️ Data preprocessing (handling missing values, feature extraction).
+✔️ Exploratory Data Analysis (EDA).
+✔️ Initial insights on crime frequency and victim demographics.
+📌 Usage: Run this first to prepare the dataset before applying machine learning models.
 
+2️⃣ FirstModel.ipynb
+Purpose: Implementation of Logistic Regression and evaluation metrics.
+Contents:
+✔️ Logistic Regression for crime type classification.
+✔️ Performance evaluation (confusion matrix, accuracy, precision, recall, F1-score).
+📌 Usage: Use this to test Logistic Regression on the dataset.
+
+3️⃣ SecondModel.ipynb
+Purpose: Implementation of Decision Tree classification with confusion matrix analysis.
+Contents:
+✔️ Decision Tree Classifier to predict crime categories.
+✔️ Aggregated confusion matrix for model performance comparison.
+📌 Usage: Builds on FirstModel, adding Decision Tree and deeper evaluation.
+
+4️⃣ FourthModel.ipynb
+Purpose: DBSCAN clustering for identifying crime hotspots.
+Contents:
+✔️ DBSCAN clustering implementation on crime data.
+✔️ Identifies high-crime zones based on density.
+📌 Usage: Dedicated notebook for DBSCAN clustering.
+
+5️⃣ K_Means_Algorithm (1).ipynb
+Purpose: Dedicated notebook for K-Means clustering analysis.
+Contents:
+✔️ Finding the optimal number of clusters (Elbow Method).
+✔️ Crime clustering based on spatial and temporal patterns.
+📌 Usage: Used specifically for clustering analysis.
+
+6️⃣ DBSCAN_Trial.ipynb
+Purpose: Experimentation with DBSCAN clustering.
+Contents:
+✔️ Testing different epsilon (ε) and min-sample values.
+✔️ Crime cluster visualization on LA city map.
+📌 Usage: Used to explore non-linear crime clusters.
