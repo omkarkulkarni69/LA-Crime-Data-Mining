@@ -11,7 +11,7 @@ By leveraging **clustering, classification, and predictive analytics**, uncovere
 4. **Crime trend predictions using machine learning**  
 5. **Patterns in victim demographics & repeat offenders**  
 
-📄 **Full Report**: [Download PDF Summary](https://github.com/your-repo/docs/LA_Crime_Analysis_Report.pdf)  
+📄 **Full Report**: [Download PDF Summary](https://github.com/omkarkulkarni69/LA-Crime-Data-Mining/blob/4e75c9ecc1b5c5b4b6b94d3331dc59b7fd95657e/LA_Crime_Analysis_Report.pdf)  
 
 ---
 
@@ -43,7 +43,7 @@ Applied multiple **machine learning and clustering algorithms** to analyze crime
 2. **DBSCAN (Density-Based Clustering)** → Identified **high-density crime zones**  
 
 📌 **Visualizing Crime Hotspots**  
-📄 **See Full Visualizations in the Report**: [Download Here](https://github.com/your-repo/docs/LA_Crime_Analysis_Report.pdf)  
+📄 **See Full Visualizations in the Report**: [Download Here](https://github.com/omkarkulkarni69/LA-Crime-Data-Mining/blob/4e75c9ecc1b5c5b4b6b94d3331dc59b7fd95657e/LA_Crime_Analysis_Report.pdf)  
 
 ---
 
@@ -52,7 +52,7 @@ Applied multiple **machine learning and clustering algorithms** to analyze crime
 2. **Linear & Logistic Regression** → Modeled likelihood of crime occurrence in specific areas  
 
 📌 **Decision Tree Classification Results**  
-📄 **View Decision Tree in Report**: [Download PDF](https://github.com/your-repo/docs/LA_Crime_Analysis_Report.pdf)  
+📄 **View Decision Tree in Report**: [Download PDF](https://github.com/omkarkulkarni69/LA-Crime-Data-Mining/blob/4e75c9ecc1b5c5b4b6b94d3331dc59b7fd95657e/LA_Crime_Analysis_Report.pdf)  
 
 ---
 
@@ -62,7 +62,7 @@ Applied multiple **machine learning and clustering algorithms** to analyze crime
 3. **Weekday vs Weekend crime variation**  
 
 📌 **Peak Crime Hours Analysis**  
-📄 **See Crime Trends & Graphs in the Report**: [Download Here](https://github.com/your-repo/docs/LA_Crime_Analysis_Report.pdf)  
+📄 **See Crime Trends & Graphs in the Report**: [Download Here](https://github.com/omkarkulkarni69/LA-Crime-Data-Mining/blob/4e75c9ecc1b5c5b4b6b94d3331dc59b7fd95657e/LA_Crime_Analysis_Report.pdf)  
 
 ---
 
@@ -144,7 +144,7 @@ Purpose: Serialized models storing trained Decision Trees.
 3. **Most Frequent Crimes**: **Theft & Assault** are the most common, with noticeable spikes in holiday months.  
 4. **Weekend vs Weekday Trends**: Violent crimes **increase on weekends**, while property crimes remain constant throughout the week.  
 
-📄 **Detailed Insights in Report**: [Download PDF](https://github.com/your-repo/docs/LA_Crime_Analysis_Report.pdf)  
+📄 **Detailed Insights in Report**: [Download PDF](https://github.com/omkarkulkarni69/LA-Crime-Data-Mining/blob/4e75c9ecc1b5c5b4b6b94d3331dc59b7fd95657e/LA_Crime_Analysis_Report.pdf)  
 
 ---
 
