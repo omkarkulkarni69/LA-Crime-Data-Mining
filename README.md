@@ -1,5 +1,5 @@
 
-# **Mining LA Crime Data for Identifying Safe Spots**
+# **Using Machine Learning for Predictive Crime Analysis and Hotspot Detection in Los Angeles**
 
 ## **📌 Project Overview**  
 This project analyzes **Los Angeles crime data (2020-2023)** using **data mining and machine learning techniques** to identify **crime hotspots and safe zones**. The dataset is sourced from the **Los Angeles Police Department (LAPD)** via [Data LA](https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8).  
@@ -15,6 +15,15 @@ By leveraging **clustering, classification, and predictive analytics**, uncovere
 
 ---
 
+## **🛠 Tools & Technologies**  
+1. **Programming Languages**: Python (Google Colab) & R (RStudio)  
+2. **Libraries Used**:  
+- `pandas`, `numpy`, `matplotlib`, `seaborn` (EDA & Visualization)  
+- `scikit-learn` (K-Means, Decision Tree, Logistic Regression)  
+- `folium` (Geospatial Crime Mapping)  
+3. **Data Sources**: Los Angeles Open Data Portal  
+
+---
 ## **🗄 Dataset Information**  
 📍 **Source**: [Los Angeles Open Data Portal](https://data.lacity.org/)  
 📊 **Size**: **788,768 records** (28 attributes)  
@@ -145,15 +154,5 @@ Purpose: Serialized models storing trained Decision Trees.
 4. **Weekend vs Weekday Trends**: Violent crimes **increase on weekends**, while property crimes remain constant throughout the week.  
 
 📄 **Detailed Insights in Report**: [Download PDF](https://github.com/omkarkulkarni69/LA-Crime-Data-Mining/blob/4e75c9ecc1b5c5b4b6b94d3331dc59b7fd95657e/LA_Crime_Analysis_Report.pdf)  
-
----
-
-## **🛠 Tools & Technologies**  
-1. **Programming Languages**: Python (Google Colab) & R (RStudio)  
-2. **Libraries Used**:  
-- `pandas`, `numpy`, `matplotlib`, `seaborn` (EDA & Visualization)  
-- `scikit-learn` (K-Means, Decision Tree, Logistic Regression)  
-- `folium` (Geospatial Crime Mapping)  
-3. **Data Sources**: Los Angeles Open Data Portal  
 
 ---
